@@ -1,0 +1,17 @@
+{
+    "name": "angularjs-minimalist",
+    "private": true,
+    "version": "1.0.0",
+    "description": "A minimal starter project for AngularJS",
+    "repository": "https://github.com/farooqam/angularjs-minimalist",
+    "license": "MIT",
+    "devDependencies": {
+        "http-server": "^0.9.0"
+    },
+    "scripts": {
+      "update-deps": "npm update",
+      "prestart": "npm install",
+      "start": "http-server -a localhost -p 8000 -c-1 ."
+    }
+  }
+  
